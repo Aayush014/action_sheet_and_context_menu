@@ -28,58 +28,66 @@ class MyActionSheet extends StatelessWidget {
               color: CupertinoColors.white,
               onPressed: () {
                 showCupertinoModalPopup(
-                    context: context,
-                    builder: (context) => CupertinoActionSheet(
-                          title: const Text(
-                            'Favorite Mobile',
+                  context: context,
+                  builder: (context) => CupertinoActionSheet(
+                    title: const Text(
+                      'Favorite Mobile',
+                      style: TextStyle(
+                          color: CupertinoColors.destructiveRed, fontSize: 25),
+                    ),
+                    message: const Column(
+                      children: [
+                        Center(
+                          child: Text(
+                            'Please select the best mobile from the\noption below.',
                             style: TextStyle(
-                                color: CupertinoColors.destructiveRed,
-                                fontSize: 25),
+                                color: CupertinoColors.systemGrey,
+                                fontSize: 17),
                           ),
-                          message: const Column(
-                            children: [
-                              Center(
-                                  child: Text(
-                                'Please select the best mobile from the\noption below.',
-                                style: TextStyle(
-                                    color: CupertinoColors.systemGrey,
-                                    fontSize: 17),
-                              )),
-                              SizedBox(
-                                  height: 50,
-                                  child: Center(
-                                      child: Text(
-                                    "OnePlus",
-                                    style: TextStyle(
-                                        color: CupertinoColors.systemBlue,
-                                        fontSize: 20),
-                                  ))),
-                              SizedBox(
-                                  height: 50,
-                                  child: Center(
-                                      child: Text(
-                                    "iPhone",
-                                    style: TextStyle(
-                                        color: CupertinoColors.systemBlue,
-                                        fontSize: 20),
-                                  ))),
-                              SizedBox(
-                                  height: 50,
-                                  child: Center(
-                                      child: Text(
-                                    "Nokia",
-                                    style: TextStyle(
-                                        color: CupertinoColors.systemBlue,
-                                        fontSize: 20),
-                                  ))),
-                            ],
+                        ),
+                        SizedBox(
+                          height: 50,
+                          child: Center(
+                            child: Text(
+                              "OnePlus",
+                              style: TextStyle(
+                                  color: CupertinoColors.systemBlue,
+                                  fontSize: 20),
+                            ),
                           ),
-                          cancelButton: CupertinoActionSheetAction(
-                              onPressed: () {
-                                Navigator.of(context).pop();
-                              },
-                              child: const Text('Cancel')),
-                        ));
+                        ),
+                        SizedBox(
+                          height: 50,
+                          child: Center(
+                            child: Text(
+                              "iPhone",
+                              style: TextStyle(
+                                  color: CupertinoColors.systemBlue,
+                                  fontSize: 20),
+                            ),
+                          ),
+                        ),
+                        SizedBox(
+                          height: 50,
+                          child: Center(
+                            child: Text(
+                              "Nokia",
+                              style: TextStyle(
+                                  color: CupertinoColors.systemBlue,
+                                  fontSize: 20),
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                    cancelButton: CupertinoActionSheetAction(
+                      onPressed: () {
+                        Navigator.of(context).pop();
+                      },
+                      child: const Text('Cancel'),
+                    ),
+                  ),
+                );
               },
               child: const Text(
                 "Press to Open",

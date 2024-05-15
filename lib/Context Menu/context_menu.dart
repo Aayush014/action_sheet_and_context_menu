@@ -11,7 +11,7 @@ class MyContextMenu extends StatelessWidget {
       ),
       child: Center(
         child: SizedBox(
-          height: 250,
+          height: 300,
           child: CupertinoContextMenu(
             enableHapticFeedback: true,
             actions: <Widget>[
@@ -19,7 +19,6 @@ class MyContextMenu extends StatelessWidget {
                 onPressed: () {
                   Navigator.pop(context);
                 },
-                // isDefaultAction: true,
                 trailingIcon: CupertinoIcons.doc_on_clipboard_fill,
                 child: const Text('Copy'),
               ),

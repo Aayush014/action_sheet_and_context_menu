@@ -58,19 +58,118 @@ This Flutter app demonstrates the implementation of Cupertino-style action sheet
 
 ## Usage
 
-1. Customize the content of each page by editing the intro_screen.dart file.
-2. Adjust the theme and styles in the theme.dart file.
-3. Add any additional dependencies or plugins as needed.
+## Usage
 
+### Cupertino Action Sheet
+The Action sheet is displayed when a button is pressed. Here is a snippet of how it's implemented:
+
+```dart
+showCupertinoModalPopup(
+                  context: context,
+                  builder: (context) => CupertinoActionSheet(
+                    title: const Text(
+                      'Favorite Mobile',
+                      style: TextStyle(
+                          color: CupertinoColors.destructiveRed, fontSize: 25),
+                    ),
+                    message: const Column(
+                      children: [
+                        Center(
+                          child: Text(
+                            'Please select the best mobile from the\noption below.',
+                            style: TextStyle(
+                                color: CupertinoColors.systemGrey,
+                                fontSize: 17),
+                          ),
+                        ),
+                        SizedBox(
+                          height: 50,
+                          child: Center(
+                            child: Text(
+                              "OnePlus",
+                              style: TextStyle(
+                                  color: CupertinoColors.systemBlue,
+                                  fontSize: 20),
+                            ),
+                          ),
+                        ),
+                        SizedBox(
+                          height: 50,
+                          child: Center(
+                            child: Text(
+                              "iPhone",
+                              style: TextStyle(
+                                  color: CupertinoColors.systemBlue,
+                                  fontSize: 20),
+                            ),
+                          ),
+                        ),
+                        SizedBox(
+                          height: 50,
+                          child: Center(
+                            child: Text(
+                              "Nokia",
+                              style: TextStyle(
+                                  color: CupertinoColors.systemBlue,
+                                  fontSize: 20),
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                    cancelButton: CupertinoActionSheetAction(
+                      onPressed: () {
+                        Navigator.of(context).pop();
+                      },
+                      child: const Text('Cancel'),
+                    ),
+                  ),
+                );
+```
+### Cupertino Context Menu
+The context menu appears upon long-pressing an item. Here is a snippet of how it's implemented:
+```dart
+CupertinoContextMenu(
+            enableHapticFeedback: true,
+            actions: <Widget>[
+              CupertinoContextMenuAction(
+                onPressed: () {
+                  Navigator.pop(context);
+                },
+                trailingIcon: CupertinoIcons.doc_on_clipboard_fill,
+                child: const Text('Copy'),
+              ),
+              CupertinoContextMenuAction(
+                onPressed: () {
+                  Navigator.pop(context);
+                },
+                trailingIcon: CupertinoIcons.share,
+                child: const Text('Share'),
+              ),
+              CupertinoContextMenuAction(
+                onPressed: () {
+                  Navigator.pop(context);
+                },
+                trailingIcon: CupertinoIcons.heart,
+                child: const Text('Favorite'),
+              ),
+              CupertinoContextMenuAction(
+                onPressed: () {
+                  Navigator.pop(context);
+                },
+                isDestructiveAction: true,
+                trailingIcon: CupertinoIcons.delete,
+                child: const Text('Delete'),
+              ),
+            ],
+            child: SizedBox(
+              child: Image.asset("Assets/bg.jpg"),
+            ),
+          );
+```
 ## Contributing
 
-Contributions are welcome! Please follow these steps to contribute:
-
-1. Fork the repository.
-2. Create a new branch: git checkout -b my-feature-branch
-3. Make your changes and commit them: git commit -m 'Add some feature'
-4. Push to the branch: git push origin my-feature-branch
-5. Create a pull request.
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or additions.
 
 ## License
 

